@@ -36,4 +36,4 @@ jobs:
     # Push the Docker image to GitHub Container Registry (GHCR)
     - name: Push Docker image to GHCR
       run: |
-        docker push ghcr.io/hefquin-test-only/hefquin:latest
+        docker push ghcr.io/keski/hefquin-test-only/hefquin:latest
