@@ -1,9 +1,9 @@
 name: Build and Publish Docker image to GHCR
 
 on:
-  #push:
-  #  branches:
-  #    - main   # or whatever branch you want to trigger the build on
+  push:
+    branches:
+      - cli-tools   # or whatever branch you want to trigger the build on
   workflow_dispatch: # allows manual triggers via the GitHub UI
 
 jobs:
