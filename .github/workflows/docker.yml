@@ -31,7 +31,7 @@ jobs:
     - name: Build Docker image
       run: |
         cd hefquin-docker/
-        docker build -t ghcr.io/${{ github.repository }}/hefquin:latest .
+        docker build -t ghcr.io/keski/hefquin-test-only/hefquin:latest .
     
     # Push the Docker image to GitHub Container Registry (GHCR)
     - name: Push Docker image to GHCR
