@@ -25,8 +25,7 @@ RUN sh -c '\
     fi'
 
 # Build only the uber war
-RUN mvn clean install
-RUN mvn package -pl hefquin-service -P build-war
+RUN mvn package -pl hefquin-service -P build-war -am 
 
 # # Use tomcat:latest for running
 FROM tomcat:latest
