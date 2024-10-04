@@ -63,8 +63,8 @@
   <distributionManagement>
    <repository>
      <id>github</id>
-     <name>GitHub LiUSemWeb Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/LiUSemWeb/HeFQUIN</url>
+     <name>GitHub Keski Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/keski/HeFQUIN-Test-Only</url>
    </repository>
 </distributionManagement>
 
