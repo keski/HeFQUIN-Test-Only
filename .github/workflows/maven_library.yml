@@ -15,7 +15,7 @@ jobs:
           ref: main
       - uses: actions/setup-java@v4
         with:
-          java-version: '11'
+          java-version: '17'
           distribution: 'temurin'
       - name: Publish package
         run: mvn --batch-mode deploy
