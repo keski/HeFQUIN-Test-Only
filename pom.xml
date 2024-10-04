@@ -64,7 +64,7 @@
    <repository>
      <id>github</id>
      <name>GitHub Keski Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/keski/hefquin-test-only</url>
+     <url>https://maven.pkg.github.com/keski/HeFQUIN-Test-Only</url>
    </repository>
 </distributionManagement>
 
